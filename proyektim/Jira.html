@@ -1,0 +1,1410 @@
+<html
+        xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<title>Jira</title>
+<style type="text/css">
+table {
+    mso-displayed-decimal-separator:"\.";
+    mso-displayed-thousand-separator:"\,";
+}
+body
+{
+    margin: 0px;
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+    color:black;
+}
+
+</style>
+<META HTTP-EQUIV="Content-Type" Content="application/vnd.ms-excel; charset=UTF-8">
+<!-- JRA-7598 - ensure fields (e.g. description) occupy only one cell - even fields containing newlines. -->
+<!--
+Vertical align all cells to the top, in order to align all issue rows of issuetable to the top,
+since Excel does not use or save the css files it is hardcoded here.
+-->
+<style>
+@page
+{
+mso-page-orientation:landscape;
+margin:.25in .25in .5in .25in;
+mso-header-margin:.5in;
+mso-footer-margin:.25in;
+mso-footer-data:"&R&P of &N";
+mso-horizontal-page-align:center;
+mso-vertical-page-align:center;
+}
+
+td.issuekey,
+td.issuetype,
+td.status {
+    mso-style-parent: "";
+    mso-number-format: \@;
+    text-align: left;
+}
+br
+{
+    mso-data-placement:same-cell;
+}
+
+td
+{
+    vertical-align: top;
+}
+</style>
+
+<!--[if gte mso 9]><xml>
+<x:ExcelWorkbook>
+<x:ExcelWorksheets>
+<x:ExcelWorksheet>
+<x:Name>general_report</x:Name>
+<x:WorksheetOptions>
+<x:Print>
+<x:ValidPrinterInfo/>
+</x:Print>
+</x:WorksheetOptions>
+</x:ExcelWorksheet>
+</x:ExcelWorksheets>
+</x:ExcelWorkbook>
+</xml><![endif]-->
+</head>
+<body>
+
+<table border="1">
+    <tr bgcolor="#205081" height="30">
+        <td colspan="7">
+            <img src="https://roimonsa.atlassian.net/images/icon-jira-software-logo.png" width="57" height="30" border="0" alt="Jira">
+        </td>
+    </tr>
+    <tr>
+        <td colspan="7">
+            <a href="https://roimonsa.atlassian.net/issues/?jql=project+%3D+QP+ORDER+BY+created+DESC">Jira</a>
+        </td>
+    </tr>
+    <tr>
+                <td colspan="7">
+            Displaying <strong>51</strong> issues at <strong>24/Aug/20 2:40 PM</strong>.
+        </td>
+    </tr>
+</table>
+
+
+
+
+                                                    <table id="issuetable" class="aui " border="1" cellpadding="3" cellspacing="1" width="100%">
+                                <thead>
+        <tr class="rowHeader">
+            
+                                                            <th class="colHeaderLink headerrow-issuetype" data-id="issuetype">
+                            Issue Type
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-issuekey" data-id="issuekey">
+                            Key
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-summary" data-id="summary">
+                            Summary
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-priority" data-id="priority">
+                            Priority
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-description" data-id="description">
+                            Description
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-thumbnail" data-id="thumbnail">
+                            Images
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-creator" data-id="creator">
+                            Creator
+                                                    </th>
+                                                                    </tr>
+    </thead>
+    <tbody>
+                    
+
+                <tr id="issuerow10050" rel="10050" data-issuekey="QP-51" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="QP-51" href="https://roimonsa.atlassian.net/browse/QP-51">QP-51</a>
+</td>
+                                            <td class="summary"><p>
+                Localization &amp; Internationalization bug
+    </p>
+</td>
+                                            <td class="priority">           High
+    </td>
+                                            <td class="description">      The website does not support different languages given the fact that the tours are also intended for tourists from abroad.
+  </td>
+                                            <td class="thumbnail"></td>
+                                            <td class="creator">            רועי מונסה
+    </td>
+                    </tr>
+
+
+                <tr id="issuerow10049" rel="10049" data-issuekey="QP-50" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="QP-50" href="https://roimonsa.atlassian.net/browse/QP-50">QP-50</a>
+</td>
+                                            <td class="summary"><p>
+                Compatibility bug on Internet Explorer version-11 with videos on website
+    </p>
+</td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="description">      When you open the website on Internet Explorer version-11 you can’t to watch in videos that displayed.<br/>
+<br/>
+In attachment there is some examples.
+  </td>
+                                            <td class="thumbnail">            <a href="https://roimonsa.atlassian.net/secure/attachment/10086/%D7%A1%D7%99%D7%A8%D7%98%D7%95%D7%A0%D7%99%D7%9D+1.jpg">
+            סירטונים 1.jpg
+        </a>
+    </td>
+                                            <td class="creator">            רועי מונסה
+    </td>
+                    </tr>
+
+
+                <tr id="issuerow10048" rel="10048" data-issuekey="QP-49" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="QP-49" href="https://roimonsa.atlassian.net/browse/QP-49">QP-49</a>
+</td>
+                                            <td class="summary"><p>
+                Compatibility bug on Internet Explorer version-11 on &#39;אודות&#39; page
+    </p>
+</td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="description">      When you open the &#39;אודות&#39; page on Internet Explorer version-11 the advertising about yaakov&#39;s books display in distorted way. 
+  </td>
+                                            <td class="thumbnail">            <a href="https://roimonsa.atlassian.net/secure/attachment/10082/%D7%A1%D7%A4%D7%A8%D7%99%D7%9D+1.jpg">
+            ספרים 1.jpg
+        </a>
+    </td>
+                                            <td class="creator">            רועי מונסה
+    </td>
+                    </tr>
+
+
+                <tr id="issuerow10047" rel="10047" data-issuekey="QP-48" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="QP-48" href="https://roimonsa.atlassian.net/browse/QP-48">QP-48</a>
+</td>
+                                            <td class="summary"><p>
+                Compatibility bug on smartphones
+    </p>
+</td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="description">      Because the images are located next to the articles on this website, it causes a bug in smartphones depending to the size of the smartphone.<br/>
+In attachment there is some examples (from Samsong-S8, and Xiaomi Redmi Not 9).
+  </td>
+                                            <td class="thumbnail">            <a href="https://roimonsa.atlassian.net/secure/attachment/10078/Xiaomi.jpeg">
+            Xiaomi.jpeg
+        </a>
+    </td>
+                                            <td class="creator">            רועי מונסה
+    </td>
+                    </tr>
+
+
+                <tr id="issuerow10046" rel="10046" data-issuekey="QP-47" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="QP-47" href="https://roimonsa.atlassian.net/browse/QP-47">QP-47</a>
+</td>
+                                            <td class="summary"><p>
+                Link to an outdated lectures
+    </p>
+</td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="description">      At the bottom of the website there is a link called &#39;הרצאה&#39;, this link leads you to a page that publishes lectures that were in the years 2008-2011.
+  </td>
+                                            <td class="thumbnail">            <a href="https://roimonsa.atlassian.net/secure/attachment/10076/%D7%94%D7%A8%D7%A6%D7%90%D7%94+1.jpg">
+            הרצאה 1.jpg
+        </a>
+    </td>
+                                            <td class="creator">            רועי מונסה
+    </td>
+                    </tr>
+
+
+                <tr id="issuerow10045" rel="10045" data-issuekey="QP-46" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="QP-46" href="https://roimonsa.atlassian.net/browse/QP-46">QP-46</a>
+</td>
+                                            <td class="summary"><p>
+                GUI bug in &#39;English lecture&#39; page
+    </p>
+</td>
+                                            <td class="priority">           Low
+    </td>
+                                            <td class="description">      At the bottom of the website there is link called &#39;English lecture&#39;, this link leads you to page with articles in English.<br/>
+All the articles in this page except for one write right to left and not left to right as supposed to be.<br/>
+Link to that page: http://ymarkel.com/?cat=85 !דפי אנגלית 1.jpg|thumbnail!  !דפי אנגלית 2.jpg|thumbnail! 
+  </td>
+                                            <td class="thumbnail">            <a href="https://roimonsa.atlassian.net/secure/attachment/10073/%D7%93%D7%A4%D7%99+%D7%90%D7%A0%D7%92%D7%9C%D7%99%D7%AA+1.jpg">
+            דפי אנגלית 1.jpg
+        </a>
+    </td>
+                                            <td class="creator">            רועי מונסה
+    </td>
+                    </tr>
+
+
+                <tr id="issuerow10044" rel="10044" data-issuekey="QP-45" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="QP-45" href="https://roimonsa.atlassian.net/browse/QP-45">QP-45</a>
+</td>
+                                            <td class="summary"><p>
+                GUI bug at the bottom of the website under &#39;תגובות אחרונות&#39; title
+    </p>
+</td>
+                                            <td class="priority">           Lowest
+    </td>
+                                            <td class="description">      At the bottom of the website there is title called &#39;תגובות אחרונות&#39;, under this title there is words with different colors some in white and some in red.
+  </td>
+                                            <td class="thumbnail">            <a href="https://roimonsa.atlassian.net/secure/attachment/10071/%D7%A6%D7%91%D7%A2%D7%99%D7%9D+%D7%A9%D7%95%D7%A0%D7%99%D7%9D.jpg">
+            צבעים שונים.jpg
+        </a>
+    </td>
+                                            <td class="creator">            רועי מונסה
+    </td>
+                    </tr>
+
+
+                <tr id="issuerow10043" rel="10043" data-issuekey="QP-44" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="QP-44" href="https://roimonsa.atlassian.net/browse/QP-44">QP-44</a>
+</td>
+                                            <td class="summary"><p>
+                Link with IP that the browser does not find
+    </p>
+</td>
+                                            <td class="priority">           Low
+    </td>
+                                            <td class="description">      At the bottom of the website there is title called &#39;תגובות אחרונות&#39;, under that title there is link called &#39;האם גם אתם חיפשתם מי היה מסריק | מי היה&#39;.<br/>
+This link leads you to IP that the browser does not find.<br/>
+This link also available on page called &#39;סיור בעקבות הפסלים היכל התרבות, כיכר הבימה, כיכר מסריק, רחבת כיכר רבין&#39;- http://ymarkel.com/?p=733&amp;cpage=1#comment-51.
+  </td>
+                                            <td class="thumbnail">            <a href="https://roimonsa.atlassian.net/secure/attachment/10070/IP+%D7%9C%D7%90+%D7%AA%D7%A7%D7%99%D7%9F+1.jpg">
+            IP לא תקין 1.jpg
+        </a>
+    </td>
+                                            <td class="creator">            רועי מונסה
+    </td>
+                    </tr>
+
+
+                <tr id="issuerow10042" rel="10042" data-issuekey="QP-43" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="QP-43" href="https://roimonsa.atlassian.net/browse/QP-43">QP-43</a>
+</td>
+                                            <td class="summary"><p>
+                GUI bug at the bottom of the website
+    </p>
+</td>
+                                            <td class="priority">           Low
+    </td>
+                                            <td class="description">      At the bottom of the website there is title called &#39;שיתופי פעולה&#39;, under that title there is two advertisements.<br/>
+Each one of the advertisements have a picture and sentence.<br/>
+The arrangement of the advertisements is that the sentence is next to the picture, and that does not look good.
+  </td>
+                                            <td class="thumbnail">            <a href="https://roimonsa.atlassian.net/secure/attachment/10064/%D7%A4%D7%A8%D7%A1%D7%95%D7%9E%D7%95%D7%AA+%D7%91%D7%AA%D7%97%D7%AA%D7%99%D7%AA+%D7%94%D7%A2%D7%9E%D7%95%D7%93.jpg">
+            פרסומות בתחתית העמוד.jpg
+        </a>
+    </td>
+                                            <td class="creator">            רועי מונסה
+    </td>
+                    </tr>
+
+
+                <tr id="issuerow10041" rel="10041" data-issuekey="QP-42" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="QP-42" href="https://roimonsa.atlassian.net/browse/QP-42">QP-42</a>
+</td>
+                                            <td class="summary"><p>
+                GUI bug on &#39;צימרים בגליל&#39; page
+    </p>
+</td>
+                                            <td class="priority">           Lowest
+    </td>
+                                            <td class="description">      At the bottom of the website there is link called &#39;צימרים בגליל&#39;, when you click on that link it leads you to page with article about healthy life.<br/>
+The background of that page not properly arranged.
+  </td>
+                                            <td class="thumbnail">            <a href="https://roimonsa.atlassian.net/secure/attachment/10063/%D7%A6%D7%99%D7%9E%D7%A8%D7%99%D7%9D+%D7%91%D7%92%D7%9C%D7%99%D7%9C+1.jpg">
+            צימרים בגליל 1.jpg
+        </a>
+    </td>
+                                            <td class="creator">            רועי מונסה
+    </td>
+                    </tr>
+
+
+                <tr id="issuerow10040" rel="10040" data-issuekey="QP-41" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="QP-41" href="https://roimonsa.atlassian.net/browse/QP-41">QP-41</a>
+</td>
+                                            <td class="summary"><p>
+                404 page on link, in the &#39;צימרים בגליל&#39; link
+    </p>
+</td>
+                                            <td class="priority">           Low
+    </td>
+                                            <td class="description">      At the bottom of the website there is link called &#39;צימרים בגליל&#39;, when you click on that link it leads you to page with article about healthy life.<br/>
+In that article there is a link called &#39;צימרים רומנטיים&#39;, this link leads you to 404 page.
+  </td>
+                                            <td class="thumbnail">            <a href="https://roimonsa.atlassian.net/secure/attachment/10059/404+%D7%91%D7%A6%D7%99%D7%9E%D7%A8%D7%99%D7%9D+%D7%91%D7%92%D7%9C%D7%99%D7%9C.jpg">
+            404 בצימרים בגליל.jpg
+        </a>
+    </td>
+                                            <td class="creator">            רועי מונסה
+    </td>
+                    </tr>
+
+
+                <tr id="issuerow10039" rel="10039" data-issuekey="QP-40" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="QP-40" href="https://roimonsa.atlassian.net/browse/QP-40">QP-40</a>
+</td>
+                                            <td class="summary"><p>
+                Not related article on link
+    </p>
+</td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="description">      At the bottom of the website there is link called &#39;צימרים בגליל&#39;, when you click on that link it leads you to page with article about healthy life and not about B &amp; Bs in the Galilee.<br/>
+<br/>
+On this page there is link to B &amp; Bs in the Galilee.
+  </td>
+                                            <td class="thumbnail">            <a href="https://roimonsa.atlassian.net/secure/attachment/10058/%D7%A6%D7%99%D7%9E%D7%A8%D7%99%D7%9D+%D7%91%D7%92%D7%9C%D7%99%D7%9C+1.jpg">
+            צימרים בגליל 1.jpg
+        </a>
+    </td>
+                                            <td class="creator">            רועי מונסה
+    </td>
+                    </tr>
+
+
+                <tr id="issuerow10038" rel="10038" data-issuekey="QP-39" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="QP-39" href="https://roimonsa.atlassian.net/browse/QP-39">QP-39</a>
+</td>
+                                            <td class="summary"><p>
+                Wrong title in link
+    </p>
+</td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="description">      At the bottom of the website there is link called &#39;צימרים בגליל&#39;, when you click on that link it leads you to page with title named &#39;כיבוש יפו&#39;.
+  </td>
+                                            <td class="thumbnail">            <a href="https://roimonsa.atlassian.net/secure/attachment/10056/%D7%A6%D7%99%D7%9E%D7%A8%D7%99%D7%9D+%D7%91%D7%92%D7%9C%D7%99%D7%9C+1.jpg">
+            צימרים בגליל 1.jpg
+        </a>
+    </td>
+                                            <td class="creator">            רועי מונסה
+    </td>
+                    </tr>
+
+
+                <tr id="issuerow10037" rel="10037" data-issuekey="QP-38" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="QP-38" href="https://roimonsa.atlassian.net/browse/QP-38">QP-38</a>
+</td>
+                                            <td class="summary"><p>
+                Incomplete article
+    </p>
+</td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="description">      At the bottom of the website there is a link called &#39;סיור בירושלים&#39;.<br/>
+This link leads you to an article about tour near Jerusalem.<br/>
+The article is incomplete.
+  </td>
+                                            <td class="thumbnail">            <a href="https://roimonsa.atlassian.net/secure/attachment/10054/%D7%A1%D7%99%D7%95%D7%A8+%D7%91%D7%99%D7%A8%D7%95%D7%A9%D7%9C%D7%99%D7%9D+1.jpg">
+            סיור בירושלים 1.jpg
+        </a>
+    </td>
+                                            <td class="creator">            רועי מונסה
+    </td>
+                    </tr>
+
+
+                <tr id="issuerow10036" rel="10036" data-issuekey="QP-37" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="QP-37" href="https://roimonsa.atlassian.net/browse/QP-37">QP-37</a>
+</td>
+                                            <td class="summary"><p>
+                Not related link
+    </p>
+</td>
+                                            <td class="priority">           Lowest
+    </td>
+                                            <td class="description">      At the bottom of the website there is link to website about London.
+  </td>
+                                            <td class="thumbnail">            <a href="https://roimonsa.atlassian.net/secure/attachment/10052/%D7%A7%D7%99%D7%A9%D7%95%D7%A8+%D7%9C%D7%95%D7%A0%D7%93%D7%95%D7%9F+1.jpg">
+            קישור לונדון 1.jpg
+        </a>
+    </td>
+                                            <td class="creator">            רועי מונסה
+    </td>
+                    </tr>
+
+
+                <tr id="issuerow10035" rel="10035" data-issuekey="QP-36" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="QP-36" href="https://roimonsa.atlassian.net/browse/QP-36">QP-36</a>
+</td>
+                                            <td class="summary"><p>
+                GUI bug on tags pages
+    </p>
+</td>
+                                            <td class="priority">           Low
+    </td>
+                                            <td class="description">      When you click on one of the tags it lead you to the articles that marked with this tag.<br/>
+In the title of the tag&#39;s page there is no space between the tag&#39;s name and the word &#39;יעקב&#39;.<br/>
+There is some examples in attachment.
+  </td>
+                                            <td class="thumbnail">            <a href="https://roimonsa.atlassian.net/secure/attachment/10050/%D7%9B%D7%95%D7%AA%D7%A8%D7%95%D7%AA+%D7%93%D7%91%D7%95%D7%A7%D7%95%D7%AA.jpg">
+            כותרות דבוקות.jpg
+        </a>
+    </td>
+                                            <td class="creator">            רועי מונסה
+    </td>
+                    </tr>
+
+
+                <tr id="issuerow10034" rel="10034" data-issuekey="QP-35" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="QP-35" href="https://roimonsa.atlassian.net/browse/QP-35">QP-35</a>
+</td>
+                                            <td class="summary"><p>
+                Double tag on tags
+    </p>
+</td>
+                                            <td class="priority">           Lowest
+    </td>
+                                            <td class="description">      On the left side of the website there is list of tags.<br/>
+The tag &#39;תל אביב&#39; appears twice.
+  </td>
+                                            <td class="thumbnail">            <a href="https://roimonsa.atlassian.net/secure/attachment/10049/%D7%AA%D7%92+%D7%9B%D7%A4%D7%95%D7%9C.jpg">
+            תג כפול.jpg
+        </a>
+    </td>
+                                            <td class="creator">            רועי מונסה
+    </td>
+                    </tr>
+
+
+                <tr id="issuerow10033" rel="10033" data-issuekey="QP-34" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="QP-34" href="https://roimonsa.atlassian.net/browse/QP-34">QP-34</a>
+</td>
+                                            <td class="summary"><p>
+                GUI bug on &#39;מכתבי קוראים&#39; page
+    </p>
+</td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="description">      On &#39;מכתבי קוראים&#39; page there is unnecessary space on the second letter in some places.<br/>
+In attachment marked this places.
+  </td>
+                                            <td class="thumbnail">            <a href="https://roimonsa.atlassian.net/secure/attachment/10048/%D7%A8%D7%95%D7%95%D7%97%D7%99%D7%9D+%D7%91%D7%9E%D7%9B%D7%AA%D7%91%D7%99+%D7%A7%D7%95%D7%A8%D7%90%D7%99%D7%9D+1.jpg">
+            רווחים במכתבי קוראים 1.jpg
+        </a>
+    </td>
+                                            <td class="creator">            רועי מונסה
+    </td>
+                    </tr>
+
+
+                <tr id="issuerow10032" rel="10032" data-issuekey="QP-33" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="QP-33" href="https://roimonsa.atlassian.net/browse/QP-33">QP-33</a>
+</td>
+                                            <td class="summary"><p>
+                Usability bug on &#39;תודות&#39; page
+    </p>
+</td>
+                                            <td class="priority">           Low
+    </td>
+                                            <td class="description">      On &#39;תודות&#39; page there is picture that it too small.
+  </td>
+                                            <td class="thumbnail">            <a href="https://roimonsa.atlassian.net/secure/attachment/10045/%D7%AA%D7%9E%D7%95%D7%A0%D7%94+%D7%A7%D7%98%D7%A0%D7%94.jpg">
+            תמונה קטנה.jpg
+        </a>
+    </td>
+                                            <td class="creator">            רועי מונסה
+    </td>
+                    </tr>
+
+
+                <tr id="issuerow10031" rel="10031" data-issuekey="QP-32" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="QP-32" href="https://roimonsa.atlassian.net/browse/QP-32">QP-32</a>
+</td>
+                                            <td class="summary"><p>
+                GUI bug on &#39;תודות&#39; page
+    </p>
+</td>
+                                            <td class="priority">           Lowest
+    </td>
+                                            <td class="description">      On ‘תודות&#39; page there is no space after the word &#39;תמונה&#39; and the word &#39;זהבי’.
+  </td>
+                                            <td class="thumbnail">            <a href="https://roimonsa.atlassian.net/secure/attachment/10044/%D7%97%D7%95%D7%A1%D7%A8+%D7%A8%D7%95%D7%95%D7%97+%D7%91%D7%93%D7%9A+%D7%AA%D7%95%D7%93%D7%95%D7%AA.jpg">
+            חוסר רווח בדך תודות.jpg
+        </a>
+    </td>
+                                            <td class="creator">            רועי מונסה
+    </td>
+                    </tr>
+
+
+                <tr id="issuerow10030" rel="10030" data-issuekey="QP-31" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="QP-31" href="https://roimonsa.atlassian.net/browse/QP-31">QP-31</a>
+</td>
+                                            <td class="summary"><p>
+                GUI bug on &#39;ספרים בהוצאת יעקב מרקל&#39; page
+    </p>
+</td>
+                                            <td class="priority">           Lowest
+    </td>
+                                            <td class="description">      On &#39;ספרים בהוצאת יעקב מרקל&#39; page there is no space before the sentence &#39;את הספר ניתן לרכוש תמורת 150 ש&quot;ח&#39;.
+  </td>
+                                            <td class="thumbnail">            <a href="https://roimonsa.atlassian.net/secure/attachment/10043/%D7%97%D7%95%D7%A1%D7%A8+%D7%A8%D7%95%D7%95%D7%97+%D7%91%D7%93%D7%A3+%D7%A1%D7%A4%D7%A8%D7%99%D7%9D.jpg">
+            חוסר רווח בדף ספרים.jpg
+        </a>
+    </td>
+                                            <td class="creator">            רועי מונסה
+    </td>
+                    </tr>
+
+
+                <tr id="issuerow10029" rel="10029" data-issuekey="QP-30" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="QP-30" href="https://roimonsa.atlassian.net/browse/QP-30">QP-30</a>
+</td>
+                                            <td class="summary"><p>
+                GUI bug on &#39;גלריית התמונות&#39; page
+    </p>
+</td>
+                                            <td class="priority">           Lowest
+    </td>
+                                            <td class="description">      On &#39;גלריית התמונות&#39; page there is sentence not in the same size as all sentences.
+  </td>
+                                            <td class="thumbnail">            <a href="https://roimonsa.atlassian.net/secure/attachment/10042/%D7%9E%D7%A9%D7%A4%D7%98+%D7%92%D7%93%D7%95%D7%9C.jpg">
+            משפט גדול.jpg
+        </a>
+    </td>
+                                            <td class="creator">            רועי מונסה
+    </td>
+                    </tr>
+
+
+                <tr id="issuerow10028" rel="10028" data-issuekey="QP-29" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="QP-29" href="https://roimonsa.atlassian.net/browse/QP-29">QP-29</a>
+</td>
+                                            <td class="summary"><p>
+                Unnecessary space on &#39;גלריית התמונות&#39; page
+    </p>
+</td>
+                                            <td class="priority">           Lowest
+    </td>
+                                            <td class="description">      On &#39;גלריית התמונות&#39; page there is Unnecessary space in the sentence: &#39;תמונות מאתר העפלה&#39; between the letter &#39;מ&#39; and &#39;א&#39;.<br/>
+This is the original sentence as show on the website:&#39;תמונות מ אתר העפלה&#39;.
+  </td>
+                                            <td class="thumbnail">            <a href="https://roimonsa.atlassian.net/secure/attachment/10041/%D7%A8%D7%95%D7%95%D7%97+%D7%9E%D7%99%D7%95%D7%AA%D7%A8+%D7%91%D7%9E%D7%A9%D7%A4%D7%98+%D7%9E%D7%94%D7%90%D7%AA%D7%A8.jpg">
+            רווח מיותר במשפט מהאתר.jpg
+        </a>
+    </td>
+                                            <td class="creator">            רועי מונסה
+    </td>
+                    </tr>
+
+
+                <tr id="issuerow10027" rel="10027" data-issuekey="QP-28" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="QP-28" href="https://roimonsa.atlassian.net/browse/QP-28">QP-28</a>
+</td>
+                                            <td class="summary"><p>
+                An unrelated sentence on &#39;גלריית התמונות&#39; page
+    </p>
+</td>
+                                            <td class="priority">           Low
+    </td>
+                                            <td class="description">      On &#39;גלריית התמונות&#39; page there is an unrelated sentence to that page and the links on that sentence lead you to unrelated websites.
+  </td>
+                                            <td class="thumbnail">            <a href="https://roimonsa.atlassian.net/secure/attachment/10040/%D7%9E%D7%A9%D7%A4%D7%98+%D7%9C%D7%90+%D7%A7%D7%A9%D7%95%D7%A8.jpg">
+            משפט לא קשור.jpg
+        </a>
+    </td>
+                                            <td class="creator">            רועי מונסה
+    </td>
+                    </tr>
+
+
+                <tr id="issuerow10026" rel="10026" data-issuekey="QP-27" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="QP-27" href="https://roimonsa.atlassian.net/browse/QP-27">QP-27</a>
+</td>
+                                            <td class="summary"><p>
+                Video\image that not work on &#39;גלריית התמונות&#39; page 
+    </p>
+</td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="description">      On &#39;גליירת התמונות&#39; page there is a video\image that not work in some platforms (I am check on W-7 G.Chrome version-84.0.4147.125 and Xiaomi Redmi Not 9). !סרטון לא עובד.jpg|thumbnail! 
+  </td>
+                                            <td class="thumbnail">            <a href="https://roimonsa.atlassian.net/secure/attachment/10039/%D7%A1%D7%A8%D7%98%D7%95%D7%9F+%D7%9C%D7%90+%D7%A2%D7%95%D7%91%D7%93.jpg">
+            סרטון לא עובד.jpg
+        </a>
+    </td>
+                                            <td class="creator">            רועי מונסה
+    </td>
+                    </tr>
+
+
+                <tr id="issuerow10025" rel="10025" data-issuekey="QP-26" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="QP-26" href="https://roimonsa.atlassian.net/browse/QP-26">QP-26</a>
+</td>
+                                            <td class="summary"><p>
+                Unnecessary word in the first letter on &#39;תודות&#39; page
+    </p>
+</td>
+                                            <td class="priority">           Low
+    </td>
+                                            <td class="description">      In the first letter on &#39;תודות&#39; page it look like there is an unnecessary word and in the same place the sentence dropped line.
+  </td>
+                                            <td class="thumbnail">            <a href="https://roimonsa.atlassian.net/secure/attachment/10038/%D7%9E%D7%99%D7%9C%D7%94+%D7%9E%D7%99%D7%95%D7%AA%D7%A8%D7%AA+%D7%91%D7%93%D7%A3+%D7%AA%D7%95%D7%93%D7%95%D7%AA+%D7%95%D7%9E%D7%99%D7%9C%D7%94+%D7%9E%D7%99%D7%95%D7%AA%D7%A8%D7%AA.jpg">
+            מילה מיותרת בדף תודות ומילה מיותרת.jpg
+        </a>
+    </td>
+                                            <td class="creator">            רועי מונסה
+    </td>
+                    </tr>
+
+
+                <tr id="issuerow10024" rel="10024" data-issuekey="QP-25" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="QP-25" href="https://roimonsa.atlassian.net/browse/QP-25">QP-25</a>
+</td>
+                                            <td class="summary"><p>
+                Lack of space between words on &#39;תודות&#39; page
+    </p>
+</td>
+                                            <td class="priority">           Lowest
+    </td>
+                                            <td class="description">      On ‘תודות’ page there is two words stuke together.<br/>
+They are location in the first letter on this page.
+  </td>
+                                            <td class="thumbnail">            <a href="https://roimonsa.atlassian.net/secure/attachment/10037/%D7%97%D7%A1%D7%A8+%D7%A8%D7%95%D7%95%D7%97+%D7%91%D7%93%D7%A3+%D7%AA%D7%95%D7%93%D7%95%D7%AA.jpg">
+            חסר רווח בדף תודות.jpg
+        </a>
+    </td>
+                                            <td class="creator">            רועי מונסה
+    </td>
+                    </tr>
+
+
+                <tr id="issuerow10023" rel="10023" data-issuekey="QP-24" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="QP-24" href="https://roimonsa.atlassian.net/browse/QP-24">QP-24</a>
+</td>
+                                            <td class="summary"><p>
+                Syntax bug on &#39;מהעתונות&#39; page
+    </p>
+</td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="description">      On &#39;מהעתונות&#39; page there is sentence with problematic syntax, we need to ask the writer what he aim.<br/>
+The sentence is: מתוך מסלול  על 12/2012 על הספר של יעקב מרקל: פסלים בתל אביב,
+  </td>
+                                            <td class="thumbnail">            <a href="https://roimonsa.atlassian.net/secure/attachment/10036/%D7%AA%D7%97%D7%91%D7%99%D7%A8+%D7%91%D7%A2%D7%99%D7%99%D7%AA%D7%99+%D7%91%D7%93%D7%A3+%D7%9E%D7%94%D7%A2%D7%AA%D7%95%D7%A0%D7%95%D7%AA.jpg">
+            תחביר בעייתי בדף מהעתונות.jpg
+        </a>
+    </td>
+                                            <td class="creator">            רועי מונסה
+    </td>
+                    </tr>
+
+
+                <tr id="issuerow10022" rel="10022" data-issuekey="QP-23" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="QP-23" href="https://roimonsa.atlassian.net/browse/QP-23">QP-23</a>
+</td>
+                                            <td class="summary"><p>
+                Link not spelled right on &#39;מהעתונות&#39; page
+    </p>
+</td>
+                                            <td class="priority">           Lowest
+    </td>
+                                            <td class="description">      On &#39;מהעתונות&#39; page there is link called &#39;אתר התיירות בישראלי מציג את הספר פסלי חוצות בתל-אביב&#39; and the name of the website is &#39;אתר התיירות הישראלי&#39;- with &#39;ה&#39; not &#39;ב&#39;.
+  </td>
+                                            <td class="thumbnail">            <a href="https://roimonsa.atlassian.net/secure/attachment/10035/%D7%90%D7%99%D7%95%D7%AA+%D7%9C%D7%90+%D7%A0%D7%9B%D7%95%D7%9F+%D7%9C%D7%90%D7%AA%D7%A8+%D7%94%D7%AA%D7%99%D7%99%D7%A8%D7%95%D7%AA+%D7%94%D7%99%D7%A9%D7%A8%D7%90%D7%9C%D7%99.jpg">
+            איות לא נכון לאתר התיירות הישראלי.jpg
+        </a>
+    </td>
+                                            <td class="creator">            רועי מונסה
+    </td>
+                    </tr>
+
+
+                <tr id="issuerow10021" rel="10021" data-issuekey="QP-22" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="QP-22" href="https://roimonsa.atlassian.net/browse/QP-22">QP-22</a>
+</td>
+                                            <td class="summary"><p>
+                &#39;אתר התיירות הישראלי&#39; website not present the &#39;פסלי חוצות בתל אביב&#39; book
+    </p>
+</td>
+                                            <td class="priority">           Low
+    </td>
+                                            <td class="description">      On &#39;מהעתונות&#39; page there is a link called &#39;אתר התיירות בישראלי מציג את הספר פסלי חוצות בתל-אביב&#39; and that link lead you to page that it not present that book.
+  </td>
+                                            <td class="thumbnail">            <a href="https://roimonsa.atlassian.net/secure/attachment/10034/%D7%9C%D7%99%D7%A0%D7%A7+%D7%9C%D7%90%D7%AA%D7%A8+%D7%94%D7%AA%D7%99%D7%99%D7%A8%D7%95%D7%AA+%D7%94%D7%99%D7%A9%D7%A8%D7%90%D7%9C%D7%99+1.jpg">
+            לינק לאתר התיירות הישראלי 1.jpg
+        </a>
+    </td>
+                                            <td class="creator">            רועי מונסה
+    </td>
+                    </tr>
+
+
+                <tr id="issuerow10020" rel="10020" data-issuekey="QP-21" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="QP-21" href="https://roimonsa.atlassian.net/browse/QP-21">QP-21</a>
+</td>
+                                            <td class="summary"><p>
+                Link to page 404 on &#39;מהעתונות&#39; page
+    </p>
+</td>
+                                            <td class="priority">           Low
+    </td>
+                                            <td class="description">      On &#39;מהעתונות&#39; page there is link called &#39;המועצה לשימור אתרים&#39; that it lead you to page 404 in &#39;המועצה לשימור אתרי מורשת בישראל&#39; website.
+  </td>
+                                            <td class="thumbnail">            <a href="https://roimonsa.atlassian.net/secure/attachment/10032/%D7%9C%D7%99%D7%A0%D7%A7+%D7%9C%D7%93%D7%A3+404+%D7%91%D7%90%D7%AA%D7%A8+%D7%9E%D7%95%D7%A8%D7%A9%D7%AA+1.jpg">
+            לינק לדף 404 באתר מורשת 1.jpg
+        </a>
+    </td>
+                                            <td class="creator">            רועי מונסה
+    </td>
+                    </tr>
+
+
+                <tr id="issuerow10019" rel="10019" data-issuekey="QP-20" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="QP-20" href="https://roimonsa.atlassian.net/browse/QP-20">QP-20</a>
+</td>
+                                            <td class="summary"><p>
+                Accessibility bug on website
+    </p>
+</td>
+                                            <td class="priority">           High
+    </td>
+                                            <td class="description">      There isn&#39;t any reference to accessibility on the website!!!
+  </td>
+                                            <td class="thumbnail"></td>
+                                            <td class="creator">            רועי מונסה
+    </td>
+                    </tr>
+
+
+                <tr id="issuerow10018" rel="10018" data-issuekey="QP-19" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="QP-19" href="https://roimonsa.atlassian.net/browse/QP-19">QP-19</a>
+</td>
+                                            <td class="summary"><p>
+                Usability bug on &#39;מאמרים&#39; pages 1
+    </p>
+</td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="description">      On &#39;מאמרים&#39; pages all the articles orders one by one and there isn&#39;t any list that tell which articles exist.<br/>
+Some links to understand:<br/>
+http://ymarkel.com/?page_id=6<br/>
+http://ymarkel.com/?page_id=6&amp;paged=2<br/>
+http://ymarkel.com/?page_id=6&amp;paged=3
+  </td>
+                                            <td class="thumbnail"></td>
+                                            <td class="creator">            רועי מונסה
+    </td>
+                    </tr>
+
+
+                <tr id="issuerow10017" rel="10017" data-issuekey="QP-18" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="QP-18" href="https://roimonsa.atlassian.net/browse/QP-18">QP-18</a>
+</td>
+                                            <td class="summary"><p>
+                Usability bug on &#39;גלריית התמונות&#39; page
+    </p>
+</td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="description">      On &#39;גלריית התמנות&#39; page there is out of order and it is really difficult to understand what going on there.
+  </td>
+                                            <td class="thumbnail">            <a href="https://roimonsa.atlassian.net/secure/attachment/10029/%D7%90%D7%99+%D7%A1%D7%93%D7%A8+%D7%91%D7%92%D7%9C%D7%A8%D7%99%D7%99%D7%AA+%D7%94%D7%AA%D7%9E%D7%A0%D7%95%D7%AA.jpg">
+            אי סדר בגלריית התמנות.jpg
+        </a>
+    </td>
+                                            <td class="creator">            רועי מונסה
+    </td>
+                    </tr>
+
+
+                <tr id="issuerow10016" rel="10016" data-issuekey="QP-17" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="QP-17" href="https://roimonsa.atlassian.net/browse/QP-17">QP-17</a>
+</td>
+                                            <td class="summary"><p>
+                Lack of space between words on home page
+    </p>
+</td>
+                                            <td class="priority">           Lowest
+    </td>
+                                            <td class="description">      On home page there is two words stuke together.<br/>
+They are location in the details about &#39;הפנתאון של תל-אביב&#39; book.
+  </td>
+                                            <td class="thumbnail">            <a href="https://roimonsa.atlassian.net/secure/attachment/10028/%D7%9E%D7%99%D7%9C%D7%99%D7%9D+%D7%93%D7%91%D7%95%D7%A7%D7%95%D7%AA+%D7%93%D7%A3+%D7%94%D7%91%D7%99%D7%AA.jpg">
+            מילים דבוקות דף הבית.jpg
+        </a>
+    </td>
+                                            <td class="creator">            רועי מונסה
+    </td>
+                    </tr>
+
+
+                <tr id="issuerow10015" rel="10015" data-issuekey="QP-16" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="QP-16" href="https://roimonsa.atlassian.net/browse/QP-16">QP-16</a>
+</td>
+                                            <td class="summary"><p>
+                GUI bug in pictures pages 2
+    </p>
+</td>
+                                            <td class="priority">           Low
+    </td>
+                                            <td class="description">      The pictures on pictures pages are displayed with the name of the picture and it not give any information.<br/>
+<br/>
+In attachments there is some examples.<br/>
+Some links:<br/>
+[http://www.ymarkel.com/haapla/index.html|http://www.ymarkel.com/haapla/index.html]<br/>
+[http://www.ymarkel.com/images/cemetry/index.htm|http://www.ymarkel.com/images/cemetry/index.htm]
+  </td>
+                                            <td class="thumbnail">            <a href="https://roimonsa.atlassian.net/secure/attachment/10027/%D7%AA%D7%9E%D7%95%D7%A0%D7%95%D7%AA+1.jpg">
+            תמונות 1.jpg
+        </a>
+    </td>
+                                            <td class="creator">            רועי מונסה
+    </td>
+                    </tr>
+
+
+                <tr id="issuerow10014" rel="10014" data-issuekey="QP-15" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="QP-15" href="https://roimonsa.atlassian.net/browse/QP-15">QP-15</a>
+</td>
+                                            <td class="summary"><p>
+                GUI bug in pictures pages 1
+    </p>
+</td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="description">      The pictures on pictures pages are displayed in a small form.<br/>
+In attachments there is some examples.<br/>
+Some links:<br/>
+http://www.ymarkel.com/haapla/index.html<br/>
+http://www.ymarkel.com/images/cemetry/index.htm
+  </td>
+                                            <td class="thumbnail">            <a href="https://roimonsa.atlassian.net/secure/attachment/10025/%D7%AA%D7%9E%D7%95%D7%A0%D7%95%D7%AA+1.jpg">
+            תמונות 1.jpg
+        </a>
+    </td>
+                                            <td class="creator">            רועי מונסה
+    </td>
+                    </tr>
+
+
+                <tr id="issuerow10013" rel="10013" data-issuekey="QP-14" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="QP-14" href="https://roimonsa.atlassian.net/browse/QP-14">QP-14</a>
+</td>
+                                            <td class="summary"><p>
+                There is no way to sign up to the website to respond on articles
+    </p>
+</td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="description">      To respond on articles you need to sign in to website, the problem is that isn&#39;t a way to sign up to website.
+  </td>
+                                            <td class="thumbnail">            <a href="https://roimonsa.atlassian.net/secure/attachment/10019/%D7%9B%D7%AA%D7%99%D7%91%D7%AA+%D7%AA%D7%92%D7%95%D7%91%D7%94+1.jpg">
+            כתיבת תגובה 1.jpg
+        </a>
+    </td>
+                                            <td class="creator">            רועי מונסה
+    </td>
+                    </tr>
+
+
+                <tr id="issuerow10012" rel="10012" data-issuekey="QP-13" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="QP-13" href="https://roimonsa.atlassian.net/browse/QP-13">QP-13</a>
+</td>
+                                            <td class="summary"><p>
+                GUI bugs on &#39;מאמרים&#39; pages 1
+    </p>
+</td>
+                                            <td class="priority">           Low
+    </td>
+                                            <td class="description">      On &#39;מאמרים&#39; pages there is some articles that not have a pictures and there is a place to pictures.<br/>
+<br/>
+On attachment there is some example.
+  </td>
+                                            <td class="thumbnail">            <a href="https://roimonsa.atlassian.net/secure/attachment/10030/%D7%97%D7%95%D7%A1%D7%A8+%D7%91%D7%AA%D7%9E%D7%95%D7%A0%D7%95%D7%AA+%D7%93%D7%A3+%D7%9E%D7%90%D7%9E%D7%A8%D7%99%D7%9D+.jpg">
+            חוסר בתמונות דף מאמרים .jpg
+        </a>
+    </td>
+                                            <td class="creator">            רועי מונסה
+    </td>
+                    </tr>
+
+
+                <tr id="issuerow10011" rel="10011" data-issuekey="QP-12" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="QP-12" href="https://roimonsa.atlassian.net/browse/QP-12">QP-12</a>
+</td>
+                                            <td class="summary"><p>
+                GUI bugs on &#39;מאמרים&#39; page 2
+    </p>
+</td>
+                                            <td class="priority">           Low
+    </td>
+                                            <td class="description">      On &#39;מאמרים&#39; page 2 there is two pictures surpass one another.
+  </td>
+                                            <td class="thumbnail">            <a href="https://roimonsa.atlassian.net/secure/attachment/10017/1%D7%91%D7%A2%D7%99%D7%99%D7%AA+%D7%92%D7%A8%D7%A4%D7%99%D7%A7%D7%94+%D7%AA%D7%9E%D7%95%D7%A0%D7%94+%D7%A2%D7%9C+%D7%AA%D7%9E%D7%95%D7%A0%D7%94.jpg">
+            1בעיית גרפיקה תמונה על תמונה.jpg
+        </a>
+    </td>
+                                            <td class="creator">            רועי מונסה
+    </td>
+                    </tr>
+
+
+                <tr id="issuerow10010" rel="10010" data-issuekey="QP-11" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="QP-11" href="https://roimonsa.atlassian.net/browse/QP-11">QP-11</a>
+</td>
+                                            <td class="summary"><p>
+                Message sending area has been threaded on &#39;מאמרים&#39; page 2
+    </p>
+</td>
+                                            <td class="priority">           Low
+    </td>
+                                            <td class="description">      Message sending area has been threaded on &#39;מאמרים&#39; page 2 and it not supposed to be there.
+  </td>
+                                            <td class="thumbnail">            <a href="https://roimonsa.atlassian.net/secure/attachment/10015/%D7%9E%D7%99%D7%93%D7%A2+%D7%9C%D7%90+%D7%94%D7%9B%D7%A8%D7%97%D7%99+1.jpg">
+            מידע לא הכרחי 1.jpg
+        </a>
+    </td>
+                                            <td class="creator">            רועי מונסה
+    </td>
+                    </tr>
+
+
+                <tr id="issuerow10009" rel="10009" data-issuekey="QP-10" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="QP-10" href="https://roimonsa.atlassian.net/browse/QP-10">QP-10</a>
+</td>
+                                            <td class="summary"><p>
+                On &#39;מאמרים&#39; pages have title duplicates
+    </p>
+</td>
+                                            <td class="priority">           Low
+    </td>
+                                            <td class="description">      The most of articles on &#39;מאמרים&#39; pages have a duplicates headings.<br/>
+<br/>
+In attachments there is just some examples.
+  </td>
+                                            <td class="thumbnail">            <a href="https://roimonsa.atlassian.net/secure/attachment/10012/%D7%9B%D7%95%D7%AA%D7%A8%D7%AA+%D7%9B%D7%A4%D7%95%D7%9C%D7%94+1.png">
+            כותרת כפולה 1.png
+        </a>
+    </td>
+                                            <td class="creator">            רועי מונסה
+    </td>
+                    </tr>
+
+
+                <tr id="issuerow10008" rel="10008" data-issuekey="QP-9" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="QP-9" href="https://roimonsa.atlassian.net/browse/QP-9">QP-9</a>
+</td>
+                                            <td class="summary"><p>
+                The advertisements on the pages with short information leakage to bottom of the page
+    </p>
+</td>
+                                            <td class="priority">           Low
+    </td>
+                                            <td class="description">      The pages with short information have a leakage of the advertisements that are location from left side.<br/>
+That advertisements has a leakage to the area in bottom of the page.<br/>
+<br/>
+In attachments there is some examples.<br/>
+<br/>
+Some links:<br/>
+<br/>
+[http://ymarkel.com/?p=38|http://ymarkel.com/?p=38]<br/>
+<br/>
+[http://ymarkel.com/?p=41|http://ymarkel.com/?p=41]<br/>
+<br/>
+[http://ymarkel.com/?page_id=88|http://ymarkel.com/?page_id=88]
+  </td>
+                                            <td class="thumbnail">            <a href="https://roimonsa.atlassian.net/secure/attachment/10023/%D7%96%D7%9C%D7%99%D7%92%D7%94+%D7%91%D7%A4%D7%A8%D7%A1%D7%95%D7%9E%D7%95%D7%AA+1.jpg">
+            זליגה בפרסומות 1.jpg
+        </a>
+    </td>
+                                            <td class="creator">            רועי מונסה
+    </td>
+                    </tr>
+
+
+                <tr id="issuerow10007" rel="10007" data-issuekey="QP-8" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="QP-8" href="https://roimonsa.atlassian.net/browse/QP-8">QP-8</a>
+</td>
+                                            <td class="summary"><p>
+                Link that called &#39;#TelAvivJaffaBatYamWalkwaySeaRoad&#39; lead to 404 page
+    </p>
+</td>
+                                            <td class="priority">           Low
+    </td>
+                                            <td class="description">      In &#39;גלריית התמונות&#39; page there is link that called &#39;#TelAvivJaffaBatYamWalkwaySeaRoad&#39; and when you click on it it lead you to 404 page.
+  </td>
+                                            <td class="thumbnail">            <a href="https://roimonsa.atlassian.net/secure/attachment/10009/%D7%93%D7%A3+404+2.jpg">
+            דף 404 2.jpg
+        </a>
+    </td>
+                                            <td class="creator">            רועי מונסה
+    </td>
+                    </tr>
+
+
+                <tr id="issuerow10006" rel="10006" data-issuekey="QP-7" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="QP-7" href="https://roimonsa.atlassian.net/browse/QP-7">QP-7</a>
+</td>
+                                            <td class="summary"><p>
+                The words &#39;גלריית התמונות&#39; are misspelled
+    </p>
+</td>
+                                            <td class="priority">           Low
+    </td>
+                                            <td class="description">      Wherever I found the words &#39;גלריית התמונות&#39; they spelled &#39;גלרית התמונות&#39; which is an error.
+  </td>
+                                            <td class="thumbnail">            <a href="https://roimonsa.atlassian.net/secure/attachment/10008/%D7%92%D7%9C%D7%A8%D7%99%D7%99%D7%AA+%D7%94%D7%AA%D7%9E%D7%95%D7%A0%D7%95%D7%AA.jpg">
+            גלריית התמונות.jpg
+        </a>
+    </td>
+                                            <td class="creator">            רועי מונסה
+    </td>
+                    </tr>
+
+
+                <tr id="issuerow10005" rel="10005" data-issuekey="QP-6" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="QP-6" href="https://roimonsa.atlassian.net/browse/QP-6">QP-6</a>
+</td>
+                                            <td class="summary"><p>
+                The &#39; 261110#&#39; link leads to 404 page
+    </p>
+</td>
+                                            <td class="priority">           Low
+    </td>
+                                            <td class="description">      On the &#39;גלריית התמונות&#39; page there is link called &#39;261110#&#39;.<br/>
+When you click on that link it leads you to 404 page.
+  </td>
+                                            <td class="thumbnail">            <a href="https://roimonsa.atlassian.net/secure/attachment/10007/%D7%93%D7%A3+404+2.jpg">
+            דף 404 2.jpg
+        </a>
+    </td>
+                                            <td class="creator">            רועי מונסה
+    </td>
+                    </tr>
+
+
+                <tr id="issuerow10004" rel="10004" data-issuekey="QP-5" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="QP-5" href="https://roimonsa.atlassian.net/browse/QP-5">QP-5</a>
+</td>
+                                            <td class="summary"><p>
+                All book links leads to 404 page
+    </p>
+</td>
+                                            <td class="priority">           High
+    </td>
+                                            <td class="description">      All book links on the website lead to page 404.<br/>
+It does not matter where you are on website.
+  </td>
+                                            <td class="thumbnail">            <a href="https://roimonsa.atlassian.net/secure/attachment/10004/%D7%93%D7%A3+404.jpg">
+            דף 404.jpg
+        </a>
+    </td>
+                                            <td class="creator">            רועי מונסה
+    </td>
+                    </tr>
+
+
+                <tr id="issuerow10003" rel="10003" data-issuekey="QP-4" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="QP-4" href="https://roimonsa.atlassian.net/browse/QP-4">QP-4</a>
+</td>
+                                            <td class="summary"><p>
+                The &#39;שכונת מונטיפיורי&#39; link leads to an incorrect page
+    </p>
+</td>
+                                            <td class="priority">           Low
+    </td>
+                                            <td class="description">      The article on the home page has a link called &#39;משה מונטיפיורי&#39;.<br/>
+When you click on this link it leads you to all the books and not to that specific book. 
+  </td>
+                                            <td class="thumbnail">            <a href="https://roimonsa.atlassian.net/secure/attachment/10003/%D7%90%D7%99%D7%95%D7%AA+%D7%9C%D7%90+%D7%A0%D7%9B%D7%95%D7%9F+%D7%A9%D7%9B%D7%95%D7%A0%D7%AA+%D7%9E%D7%95%D7%A0%D7%98%D7%99%D7%A4%D7%99%D7%95%D7%A8%D7%99.jpg">
+            איות לא נכון שכונת מונטיפיורי.jpg
+        </a>
+    </td>
+                                            <td class="creator">            רועי מונסה
+    </td>
+                    </tr>
+
+
+                <tr id="issuerow10002" rel="10002" data-issuekey="QP-3" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="QP-3" href="https://roimonsa.atlassian.net/browse/QP-3">QP-3</a>
+</td>
+                                            <td class="summary"><p>
+                The link &#39;שכונת מונטיפיורי&#39; spelled not right
+    </p>
+</td>
+                                            <td class="priority">           Low
+    </td>
+                                            <td class="description">      The article on the home page has a link called &#39;שכונת מוטפיורי&#39; and spelled correctly it should be &#39;שכונת מונטיפיורי&#39;.
+  </td>
+                                            <td class="thumbnail">            <a href="https://roimonsa.atlassian.net/secure/attachment/10002/%D7%90%D7%99%D7%95%D7%AA+%D7%9C%D7%90+%D7%A0%D7%9B%D7%95%D7%9F+%D7%A9%D7%9B%D7%95%D7%A0%D7%AA+%D7%9E%D7%95%D7%A0%D7%98%D7%99%D7%A4%D7%99%D7%95%D7%A8%D7%99.jpg">
+            איות לא נכון שכונת מונטיפיורי.jpg
+        </a>
+    </td>
+                                            <td class="creator">            רועי מונסה
+    </td>
+                    </tr>
+
+
+                <tr id="issuerow10001" rel="10001" data-issuekey="QP-2" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="QP-2" href="https://roimonsa.atlassian.net/browse/QP-2">QP-2</a>
+</td>
+                                            <td class="summary"><p>
+                There is two registration field to receive updates in home page
+    </p>
+</td>
+                                            <td class="priority">           Lowest
+    </td>
+                                            <td class="description">      When you enter to the website there is two registration field to receive updates.<br/>
+one from left side and another after the explanation about Yaakov Markel.
+  </td>
+                                            <td class="thumbnail">            <a href="https://roimonsa.atlassian.net/secure/attachment/10001/%D7%A9%D7%AA%D7%99+%D7%A9%D7%93%D7%95%D7%AA+%D7%A8%D7%99%D7%A9%D7%95%D7%9D.jpg">
+            שתי שדות רישום.jpg
+        </a>
+    </td>
+                                            <td class="creator">            רועי מונסה
+    </td>
+                    </tr>
+
+
+                <tr id="issuerow10000" rel="10000" data-issuekey="QP-1" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="QP-1" href="https://roimonsa.atlassian.net/browse/QP-1">QP-1</a>
+</td>
+                                            <td class="summary"><p>
+                There is no date in the ad
+    </p>
+</td>
+                                            <td class="priority">           Low
+    </td>
+                                            <td class="description">      In website there is a box in name &#39;חדשות האתר&#39;.<br/>
+In one of the news that tell about specific tour on the cemetery of Tel-Aviv there is no date of the tour.
+  </td>
+                                            <td class="thumbnail">            <a href="https://roimonsa.atlassian.net/secure/attachment/10000/%D7%90%D7%99%D7%9F+%D7%AA%D7%90%D7%A8%D7%99%D7%9A+%D7%91%D7%97%D7%93%D7%A9%D7%95%D7%AA.png">
+            אין תאריך בחדשות.png
+        </a>
+    </td>
+                                            <td class="creator">            רועי מונסה
+    </td>
+                    </tr>
+                </tbody>
+    </table>
+    <div class="end-of-stable-message"></div>
+            <table border="1" >
+<tr>
+    <td bgcolor="#dddddd" colspan="7"><font size="1">
+        Generated at Mon Aug 24 11:40:54 UTC 2020 by רועי מונסה using Jira 1001.0.0-SNAPSHOT#100144-sha1:0051646fe43781d31d14377d350f8f74fd4c3083.
+    </font></td>
+</tr>
+</table>
+
+</body>
+</html>
